@@ -1,11 +1,14 @@
 {
   "name": "react-course-workout",
   "version": "1.0.0",
-  "description": "Sample demo project",
+  "description": "This is not that much important.",
   "main": "App.js",
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ambarish",
-  "license": "ISC"
+  "author": "Ambrish",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
 }
