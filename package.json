@@ -4,11 +4,18 @@
   "description": "This is not that much important.",
   "main": "App.js",
   "scripts": {
+    "start": "parcel indx.html",
+    "build": "parcel build indx.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ambrish",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.12.0"
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }

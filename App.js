@@ -1,10 +1,8 @@
-const title = React.createElement(
-  "div",
-  { id: "parent" },
-  React.createElement("div", { id: "child" }, [
-    React.createElement("h1", {}, "I'm from H1 tag"),
-    React.createElement("h2", {}, "I'm from H2 tag"),
-  ])
-);
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+const jsxheading = <h1 id="heading">Welcome to our First Project</h1>;
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(title);
+
+root.render(jsxheading);
